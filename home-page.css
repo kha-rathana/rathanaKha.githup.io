@@ -1,0 +1,131 @@
+*{
+    background-color: rgb(34, 21, 74);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    border: none;
+    color: white;
+    text-decoration: none;
+ }
+ .main{
+  width: 100%;
+  height: 100vn;
+  background-color: black;
+  position: relative;
+ }
+ .team{
+    margin: 0px;
+    padding: 15px;
+}
+.team span{
+  color: #ff7200;
+}
+
+
+
+.content{
+    max-width: 650px;
+    padding: 10px 25px;
+    position: absolute;
+    top: 300%;
+    left: 4%;
+}
+    .content h1{
+    font-size:2rem;
+    font-weight: bold;
+    color: white;
+}
+.content p{
+    font-weight: bold;
+    color: #ff7200;
+    padding: 5px 5px;
+}
+.content .info{
+    padding: 5px;
+    font-size: .9rem;
+    color: white;
+    max-width: 450px;
+}
+.btn{
+    margin: 20px 0;
+    padding: 2px;
+    width: 300px;
+    display: flex;
+    gap: 2rem;
+    
+    
+}
+.btn button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    
+}
+.btn button a{
+    font-size: .9rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    
+}
+.btn .sbtn{
+    color: #ff7200;
+    background-color: transparent;
+    border: 2px solid #ff7200;
+}
+.btn .sbtn a{
+    color: #ff7200;
+}
+.btn .sbtn:hover{
+    box-shadow: 0 0 30px white;
+}
+
+
+.social{
+    margin-top:20px ;
+    display: flex;
+    margin-left: 80px;
+    gap:2rem;
+}
+.social img{
+    width: 30px;
+    height: 30px;
+    border-radius: 60px;
+    cursor: pointer;
+}
+.social img:hover{
+    box-shadow:0 0 30px #ff7200;
+   
+}
+.profile{
+  
+    width:490 px;
+    height: 430px;
+    background: no-repeat;
+    background-size:cover ;
+    cursor: pointer;
+    transition: ease 1000ms;
+    position: absolute;
+    border-radius: 50%;
+    right: 0%;
+    top: 0% ;
+    
+}
+.profile img{
+    margin: ;
+    padding: ;
+    border-radius: 50px 0 0 50px;
+    background-color:  rgba(245, 245, 245, 0.006);
+}
+
+.profile:hover{
+    opacity: .1;
+    font-size : .95rem;
+    padding: 5px 5px;
+    
+}
+
+    
